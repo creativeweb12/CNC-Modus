@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Dashboard from './components/Dashboard';
+import CNCControl from './components/CNCControl'
 import './styles.css';  // Import the CSS file
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
     <Router>
       <div className="app">
         <header>
-          <h1> Modus React App</h1>
+          <h1 style={{color: "blue" }}> Modus React App</h1>
 
           {/* Styled Navigation Bar */}
           <nav className="navbar">

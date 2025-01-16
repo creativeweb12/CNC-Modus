@@ -4,7 +4,6 @@ A web-based CNC machine monitoring and control system that integrates React, Nod
 # 🛠️ Tech Stack
 Frontend: React.js, Modus, Axios  
 Backend: Node.js, Express.js  
-Middleware : Modus  
 Database: Dgraph or Neo4j (Knowledge Graph)  
 Authentication & Hosting: Firebase  
 Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors  

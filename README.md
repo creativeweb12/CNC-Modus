@@ -1,5 +1,3 @@
-# CNC-Modus
-
 # 🚀 CNC Monitoring and Control App
 A web-based CNC machine monitoring and control system that integrates React, Node.js, Firebase, and Dgraph/Neo4j. This app allows real-time control of CNC operations with features like spindle control, G-code execution, and machine insights visualization.
 
@@ -12,8 +10,8 @@ Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors
 
 # 📂 Project Structure
 CNC-Monitoring-Control-App/
-* ├── backend/
-* │   ├── server.js            # Backend server (Node.js + Express)
+- ├── backend/
+- │   ├── server.js            # Backend server (Node.js + Express)
 * │   ├── cncService.js        # CNC command handling
 * │   └── insightsService.js   # Insights from Dgraph/Neo4j
 * ├── frontend/

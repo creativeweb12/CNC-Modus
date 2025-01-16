@@ -30,10 +30,10 @@ CNC-Monitoring-Control-App/
  └── README.md  
 
 # ⚙️ Features
-Real-Time CNC Control: Start, stop, and pause the CNC machine.  
-G-Code Execution: Send custom G-code commands directly to the CNC.  
-Spindle Speed Control: Adjust spindle speed using PWM signals.  
-Machine Insights: View performance insights using a knowledge graph.  
+Real-Time CNC Control: Start, stop, and pause the CNC machine.  <br>
+G-Code Execution: Send custom G-code commands directly to the CNC.  <br>
+Spindle Speed Control: Adjust spindle speed using PWM signals.  <br>
+Machine Insights: View performance insights using a knowledge graph.<br>  
 User Authentication: Secure login and signup with Firebase.  
 
 #🔌 Hardware Setup
@@ -53,72 +53,72 @@ Arduino: USB or 5V DC.
 
 # 🚀 Installation
 1. Clone the Repository  
-git clone https://github.com/creativeweb12/cnc-monitoring-control-app.git  
+git clone https://github.com/creativeweb12/cnc-monitoring-control-app.git  <br>
 cd cnc-monitoring-control-app  
 
 3. Install Backend Dependencies
-cd backend  
+cd backend  <br>
 npm install  
 
 4. Install Frontend Dependencies
-cd ../frontend  
+cd ../frontend  <br>
 npm install  
 
 5. Configure Firebase
-Create a file frontend/src/firebase-config.js:  
-import { initializeApp } from "firebase/app";  
+Create a file frontend/src/firebase-config.js:  <br>
+import { initializeApp } from "firebase/app";  <br>
 import { getAuth } from "firebase/auth";  
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",  
-  authDomain: "YOUR_AUTH_DOMAIN",  
-  projectId: "YOUR_PROJECT_ID",  
-  storageBucket: "YOUR_STORAGE_BUCKET",  
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",  
+  apiKey: "YOUR_API_KEY",  <br>
+  authDomain: "YOUR_AUTH_DOMAIN",<br>  
+  projectId: "YOUR_PROJECT_ID",  <br>
+  storageBucket: "YOUR_STORAGE_BUCKET",<br>  
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", <br> 
   appId: "YOUR_APP_ID"  
 };  
 
-const app = initializeApp(firebaseConfig);  
-export const auth = getAuth(app);  
+const app = initializeApp(firebaseConfig);  <br>
+export const auth = getAuth(app);  <br>
 export default app;  
 
 5. Start the Backend Server
-cd backend  
+cd backend  <br>
 node server.js
 
 7. Start the Frontend App
-cd ../frontend  
+cd ../frontend  <br>
 npm start
 
 # 📱 Usage
-Login/Signup:  
+Login/Signup:  <br>
 Access the app at http://localhost:3000 and sign in with Firebase authentication.
 
-CNC Control:  
-Start, stop, and pause the CNC machine.  
-Send G-code commands.  
-Monitor real-time spindle speed.  
-Insights:  
+CNC Control:  <br>
+Start, stop, and pause the CNC machine.<br>  
+Send G-code commands.  <br>
+Monitor real-time spindle speed.<br>  
+Insights:  <br>
 Visualize CNC performance and machine health through data-driven insights.
 
-❗ Troubleshooting  
-404 Error on Insights:  
+❗ Troubleshooting <br> 
+404 Error on Insights: <br> 
 Ensure the backend server is running (node server.js) and Dgraph/Neo4j is connected.
 
-Serial Port Error:  
-Verify the correct COM port in server.js for Arduino:  
-const cncPort = new SerialPort('COM4', { baudRate: 115200 });  
-CORS Issues:  
-Install CORS middleware in the backend:  
+Serial Port Error:  <br>
+Verify the correct COM port in server.js for Arduino:  <br>
+const cncPort = new SerialPort('COM4', { baudRate: 115200 }); <br> 
+CORS Issues:  <br>
+Install CORS middleware in the backend:<br>  
 npm install cors
 
-# 💡 Acknowledgements  
-React.js  
-Firebase  
-Dgraph / Neo4j  
-Arduino  
+# 💡 Acknowledgements  <br>
+React.js  <br>
+Firebase  <br>
+Dgraph / Neo4j<br>  
+Arduino  <br>
 TB6600 Stepper Driver  
 
 # 📞 Contact
-Your Name – Balamurugan D  
+Your Name – Balamurugan D  <br>
 Email: dbalamurugan@creativewebgraphic.com

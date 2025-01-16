@@ -1,16 +1,16 @@
 # CNC-Modus
 
-🚀 CNC Monitoring and Control App
+# 🚀 CNC Monitoring and Control App
 A web-based CNC machine monitoring and control system that integrates React, Node.js, Firebase, and Dgraph/Neo4j. This app allows real-time control of CNC operations with features like spindle control, G-code execution, and machine insights visualization.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend: React.js, Modus, Axios
 Backend: Node.js, Express.js
 Database: Dgraph or Neo4j (Knowledge Graph)
 Authentication & Hosting: Firebase
 Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors
 
-📂 Project Structure
+# 📂 Project Structure
 CNC-Monitoring-Control-App/
 ├── backend/
 │   ├── server.js            # Backend server (Node.js + Express)
@@ -31,14 +31,14 @@ CNC-Monitoring-Control-App/
 ├── package.json
 └── README.md
 
-⚙️ Features
+# ⚙️ Features
 Real-Time CNC Control: Start, stop, and pause the CNC machine.
 G-Code Execution: Send custom G-code commands directly to the CNC.
 Spindle Speed Control: Adjust spindle speed using PWM signals.
 Machine Insights: View performance insights using a knowledge graph.
 User Authentication: Secure login and signup with Firebase.
 
-🔌 Hardware Setup
+#🔌 Hardware Setup
 Arduino Uno → TB6600 Driver
 
 STEP → Pin 3
@@ -53,7 +53,7 @@ Power Supply
 TB6600 & Spindle: 24V or 48V power supply.
 Arduino: USB or 5V DC.
 
-🚀 Installation
+# 🚀 Installation
 1. Clone the Repository
 git clone https://github.com/creativeweb12/cnc-monitoring-control-app.git
 cd cnc-monitoring-control-app
@@ -92,7 +92,7 @@ node server.js
 cd ../frontend
 npm start
 
-📱 Usage
+# 📱 Usage
 Login/Signup:
 Access the app at http://localhost:3000 and sign in with Firebase authentication.
 
@@ -114,13 +114,13 @@ CORS Issues:
 Install CORS middleware in the backend:
 npm install cors
 
-💡 Acknowledgements
+# 💡 Acknowledgements
 React.js
 Firebase
 Dgraph / Neo4j
 Arduino
 TB6600 Stepper Driver
 
-📞 Contact
+# 📞 Contact
 Your Name – Balamurugan D
 Email: dbalamurugan@creativewebgraphic.com

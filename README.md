@@ -71,10 +71,10 @@ import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",  <br>
-  authDomain: "YOUR_AUTH_DOMAIN",<br>  
+  authDomain: "YOUR_AUTH_DOMAIN",<br>
   projectId: "YOUR_PROJECT_ID",  <br>
-  storageBucket: "YOUR_STORAGE_BUCKET",<br>  
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", <br> 
+  storageBucket: "YOUR_STORAGE_BUCKET",<br>
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", <br>
   appId: "YOUR_APP_ID"  
 };  
 
@@ -95,27 +95,27 @@ Login/Signup:  <br>
 Access the app at http://localhost:3000 and sign in with Firebase authentication.
 
 CNC Control:  <br>
-Start, stop, and pause the CNC machine.<br>  
+Start, stop, and pause the CNC machine.<br>
 Send G-code commands.  <br>
-Monitor real-time spindle speed.<br>  
+Monitor real-time spindle speed.<br>
 Insights:  <br>
 Visualize CNC performance and machine health through data-driven insights.
 
 ❗ Troubleshooting <br> 
-404 Error on Insights: <br> 
+404 Error on Insights: <br>
 Ensure the backend server is running (node server.js) and Dgraph/Neo4j is connected.
 
 Serial Port Error:  <br>
 Verify the correct COM port in server.js for Arduino:  <br>
-const cncPort = new SerialPort('COM4', { baudRate: 115200 }); <br> 
+const cncPort = new SerialPort('COM4', { baudRate: 115200 }); <br>
 CORS Issues:  <br>
-Install CORS middleware in the backend:<br>  
+Install CORS middleware in the backend:<br>
 npm install cors
 
 # 💡 Acknowledgements  <br>
 React.js  <br>
 Firebase  <br>
-Dgraph / Neo4j<br>  
+Dgraph / Neo4j<br>
 Arduino  <br>
 TB6600 Stepper Driver  
 

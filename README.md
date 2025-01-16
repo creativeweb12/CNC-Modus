@@ -2,11 +2,11 @@
 A web-based CNC machine monitoring and control system that integrates React, Node.js, Firebase, and Dgraph/Neo4j. This app allows real-time control of CNC operations with features like spindle control, G-code execution, and machine insights visualization.
 
 # 🛠️ Tech Stack
-Frontend: React.js, Modus, Axios
-Backend: Node.js, Express.js
-Database: Dgraph or Neo4j (Knowledge Graph)
-Authentication & Hosting: Firebase
-Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors
+Frontend: React.js, Modus, Axios  
+Backend: Node.js, Express.js  
+Database: Dgraph or Neo4j (Knowledge Graph)  
+Authentication & Hosting: Firebase  
+Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors  
 
 # 📂 Project Structure
 CNC-Monitoring-Control-App/

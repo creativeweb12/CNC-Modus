@@ -12,24 +12,24 @@ Hardware: Arduino Uno, 500W CNC Spindle, TB6600 Driver, NEMA 17 Stepper Motors
 
 # 📂 Project Structure
 CNC-Monitoring-Control-App/
-├── backend/
-│   ├── server.js            # Backend server (Node.js + Express)
-│   ├── cncService.js        # CNC command handling
-│   └── insightsService.js   # Insights from Dgraph/Neo4j
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       │   ├── Dashboard.js
-│       │   ├── ControlPanel.js
-│       │   └── Insights.js
-│       ├── services/
-│       │   ├── cncService.js
-│       │   └── insightsService.js
-│       ├── App.js
-│       └── index.js
-├── package.json
-└── README.md
+* ├── backend/
+* │   ├── server.js            # Backend server (Node.js + Express)
+* │   ├── cncService.js        # CNC command handling
+* │   └── insightsService.js   # Insights from Dgraph/Neo4j
+* ├── frontend/
+* │   ├── public/
+* │   └── src/
+* │       ├── components/
+* │       │   ├── Dashboard.js
+* │       │   ├── ControlPanel.js
+* │       │   └── Insights.js
+* │       ├── services/
+* │       │   ├── cncService.js
+* │       │   └── insightsService.js
+* │       ├── App.js
+* │       └── index.js
+* ├── package.json
+* └── README.md
 
 # ⚙️ Features
 Real-Time CNC Control: Start, stop, and pause the CNC machine.
